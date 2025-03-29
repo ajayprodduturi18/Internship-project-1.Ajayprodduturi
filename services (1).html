@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services - Gaming Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://icons.iconarchive.com/icons/uriy1966/steel-system/128/Games-icon.png" alt="Gaming Hub Logo" width="40" height="40" class="blinking-icon" />
+      Gaming Hub
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Our Services</h1>
+      <p>Explore our wide range of services designed for both online and offline gamers. At Gaming Hub, we provide everything you need to elevate your gaming experience.</p>
+    </section>
+
+    <section class="service-options">
+      <div class="service-card">
+        <h2>Game Recommendations</h2>
+        <p>Discover personalized game suggestions based on your interests. We curate games to match your preferences for both online and offline play.</p>
+      </div>
+      <div class="service-card">
+        <h2>Community Forums</h2>
+        <p>Join our thriving gaming community. Connect with other gamers, share tips, and participate in discussions about your favorite games.</p>
+      </div>
+      <div class="service-card">
+        <h2>Game Reviews</h2>
+        <p>Access in-depth game reviews and ratings from experts and fellow gamers to make informed decisions about your next adventure.</p>
+      </div>
+      <div class="service-card">
+        <h2>Tournaments</h2>
+        <p>Participate in online and offline gaming tournaments. Show off your skills, win prizes, and climb the leaderboards.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gaming Hub. All rights reserved.</p>
+  </footer>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .blinking-icon:hover {
+      animation: blink 0.5s infinite alternate;
+    }
+
+    @keyframes blink {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0.3;
+      }
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+
+    .service-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 50px 20px;
+    }
+
+    .service-card {
+      text-align: center;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 15px;
+      transition: transform 0.3s;
+      max-width: 300px;
+    }
+
+    .service-card:hover {
+      transform: scale(1.1);
+    }
+
+    h2 {
+      margin-top: 15px;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+    }
+  </style>
+</body>
+</html>

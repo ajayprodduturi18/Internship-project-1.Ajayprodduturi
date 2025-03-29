@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Gaming Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://icons.iconarchive.com/icons/uriy1966/steel-system/128/Games-icon.png" alt="Gaming Hub Logo" width="40" height="40" class="blinking-icon" />
+      Gaming Hub
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Reach out to us using the information below.</p>
+    </section>
+
+    <section class="contact-details">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> 123 Gaming Street, Game City, GC 45678</p>
+      <p><strong>Phone:</strong> +1-234-567-890</p>
+      <p><strong>Email:</strong> support@gaminghub.com</p>
+      <p><strong>Developed by:</strong> Ajay</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gaming Hub. All rights reserved.</p>
+  </footer>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #333;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .blinking-icon:hover {
+      animation: blink 0.5s infinite alternate;
+    }
+
+    @keyframes blink {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0.3;
+      }
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+
+    .contact-details {
+      padding: 50px 20px;
+      background-color: #222;
+    }
+
+    .contact-details h2 {
+      color: #00bcd4;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+    }
+  </style>
+</body>
+</html>
